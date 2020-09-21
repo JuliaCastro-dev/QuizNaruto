@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FFFFFF"
+    android:orientation="vertical"
+    tools:context=".TelaActivity1">
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Jogador:"/>
+
+    <TextView
+        android:id="@+id/textViewNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Anonimo"
+        tools:ignore="HardcodedText" />
+
+
+</LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Quem foi o primeiro sensei do naruto?"
+        android:textAlignment="center"
+        android:textColor="#FF9800"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="315dp"
+        app:srcCompat="@drawable/mar" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp">
+
+        <RadioButton
+            android:id="@+id/radioButtonKaka"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kakashi"
+            android:textColor="#0073FF"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButtonIruka"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Iruka"
+            android:textColor="#0073FF"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButtonTobi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tobirama"
+            android:textColor="#0073FF"
+            android:textStyle="bold" />
+
+    </RadioGroup>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/buttonConfereT1"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="15dp"
+        android:background="#FF9800"
+        android:fontFamily="sans-serif-condensed"
+        android:text="CONFERIR"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/buttonAvançarT1"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="15dp"
+        android:background="#FF9800"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Avançar"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>
+
+</LinearLayout>

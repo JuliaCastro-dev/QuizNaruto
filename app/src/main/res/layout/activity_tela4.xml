@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TelaActivity4">
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Jogador:"/>
+
+        <TextView
+            android:id="@+id/textViewNomeT4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Anonimo"
+            tools:ignore="HardcodedText" />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Marque apenas quem possui um Sharingan"
+        android:textAlignment="center"
+        android:textColor="#FF9800"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="219dp"
+        app:srcCompat="@drawable/sharingan" />
+
+    <CheckBox
+        android:id="@+id/checkBoxNaruto"
+        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Naruto"
+        android:textColor="#0B50E5"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBoxMadara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Madara"
+        android:textColor="#0B50E5"
+        android:textStyle="bold"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxKaka"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kakashi"
+        android:textColor="#0B50E5"
+        android:textStyle="bold"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxTsu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tsunade"
+        android:textColor="#0B50E5"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonAvancarT4"
+            android:layout_width="156dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:background="#FF9800"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Avançar"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonConfereT4"
+            android:layout_width="167dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:background="#FF9800"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Confere"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</LinearLayout>

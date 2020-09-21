@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TelaActivity3">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Jogador:"/>
+
+        <TextView
+            android:id="@+id/textViewNomeT3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Anonimo"
+            tools:ignore="HardcodedText" />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Qual é o clã do Naruto?"
+        android:textAlignment="center"
+        android:textColor="#FF9800"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:srcCompat="@drawable/clas" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp">
+
+        <RadioButton
+            android:id="@+id/radioButtonSenju"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" senju"
+            android:textColor="#0073FF"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButtonUzu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Uzumaki"
+            android:textColor="#0073FF"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButtonUchiha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Uchiha"
+            android:textColor="#0073FF"
+            android:textStyle="bold" />
+
+
+        <RadioButton
+            android:id="@+id/radioButtonHyuuga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hyuuga"
+            android:textColor="#0073FF"
+            android:textStyle="bold" />
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonAvancarT3"
+            android:layout_width="156dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:background="#FF9800"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Avançar"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonConfereT3"
+            android:layout_width="167dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:background="#FF9800"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Confere"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        app:srcCompat="@drawable/alerta" />
+
+    <Button
+        android:id="@+id/buttonAvancarAlerta"
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:background="#FF9800"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Avançar"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="80dp"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+</LinearLayout>

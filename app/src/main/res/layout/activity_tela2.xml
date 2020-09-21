@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".TelaActivity2">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:text="Jogador:"/>
+
+        <TextView
+            android:id="@+id/textViewT2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:text="Anonimo"
+            tools:ignore="HardcodedText" />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Que Hokage da folha é o Relâmpago amarelo?"
+        android:textAlignment="center"
+        android:textColor="#FF9800"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="277dp"
+        app:srcCompat="@drawable/hokages" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp">
+
+        <RadioButton
+            android:id="@+id/radioButtonTobi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tobirama senju"
+            android:textColor="#0073FF"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButtonSarutobi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Raruzen sarutobi"
+            android:textColor="#0073FF"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButtonMina"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Minato namikaze"
+            android:textColor="#0073FF"
+            android:textStyle="bold" />
+
+
+        <RadioButton
+            android:id="@+id/radioButtonTsunade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tsunade senju"
+            android:textColor="#0073FF"
+            android:textStyle="bold" />
+
+    </RadioGroup>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonAvancarT2"
+            android:layout_width="156dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:background="#FF9800"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Avançar"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonConfereT2"
+            android:layout_width="167dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:background="#FF9800"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Confere"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>
