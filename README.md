@@ -1,2 +1,2 @@
 # QuizNaruto
-Quiz sobre o anime Naruto, simples em Java
+Quiz sobre o anime Naruto, Mobile em Java
